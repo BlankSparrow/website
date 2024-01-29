@@ -10,7 +10,7 @@
   <body style="background-color: rgb(29, 31, 35);">
 
     <!-- Unity Window -->
-    <div id="unity-container" class="unity-desktop" style="height: 100vh; width: 100vw;   padding-bottom: 50px; ">
+    <div id="unity-container" class="unity-desktop" style="min-height: 100dvh; width: 100vw;   padding-bottom: 50px; ">
       <img style="style="height: 100vh; width: 100vw;" src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
     </div>
 
@@ -91,7 +91,7 @@
 
         var meta = document.createElement('meta');
         meta.name = 'viewport';
-        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        meta.content = 'width=device-width, min-height: 100dvh, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
         document.getElementsByTagName('head')[0].appendChild(meta);
         container.className = "unity-mobile";
         canvas.className = "unity-mobile";
